@@ -6,12 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "contract-build": "npx hardhat compile",
-    "deploy": "npx hardhat run ./scripts/deploy.js --network MATIC_MAINNET",
-    "deploy-mumbai": "npx hardhat run ./scripts/deploy.js --network MATIC_MAINNET",
-    "node": "npx hardhat node",
-    "deploy-local": "npx hardhat run ./scripts/deploy.js --network localhost"
+    "lint": "next lint"
   },
   "dependencies": {
     "autoprefixer": "10.4.14",
