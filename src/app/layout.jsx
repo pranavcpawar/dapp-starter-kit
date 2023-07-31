@@ -1,3 +1,4 @@
+"use client";
 import { WagmiConfig, createConfig } from "wagmi";
 import { ConnectKitProvider, getDefaultConfig } from "connectkit";
 import "./globals.css";
