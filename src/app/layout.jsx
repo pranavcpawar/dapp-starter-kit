@@ -15,7 +15,7 @@ const config = createConfig(
   getDefaultConfig({
   // Required API Keys
   alchemyId: process.env.ALCHEMY_API_KEY, // or infuraId
-  walletConnectProjectId: "demo",
+  walletConnectProjectId: process.env.WALLET_CONNECT_PROJECT_ID,
 
   // Required
   appName: "You Create Web3 Dapp",
