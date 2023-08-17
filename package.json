@@ -13,6 +13,7 @@
     "deploy-local": "npx hardhat run ./scripts/deploy.js --network localhost"
   },
   "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
     "autoprefixer": "10.4.14",
     "connectkit": "^1.5.0",
     "daisyui": "^3.3.1",
