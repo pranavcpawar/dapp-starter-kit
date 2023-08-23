@@ -9,6 +9,7 @@
     "lint": "next lint",
     "hardhat-build": "npx hardhat compile",
     "deploy": "npx hardhat run ./scripts/deploy.js --network MATIC_MAINNET",
+    "deploy-mumbai": "npx hardhat run ./scripts/deploy.js --network MATIC_MUMBAI",
     "node": "npx hardhat node",
     "deploy-local": "npx hardhat run ./scripts/deploy.js --network localhost"
   },
