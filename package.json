@@ -10,6 +10,7 @@
     "hardhat-build": "npx hardhat compile",
     "deploy": "npx hardhat run ./scripts/deploy.js --network MATIC_MAINNET",
     "deploy-mumbai": "npx hardhat run ./scripts/deploy.js --network MATIC_MUMBAI",
+    "deploy-sepolia": "npx hardhat run ./scripts/deploy.js --network SEPOLIA",
     "node": "npx hardhat node",
     "deploy-local": "npx hardhat run ./scripts/deploy.js --network localhost"
   },
