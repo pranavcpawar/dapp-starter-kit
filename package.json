@@ -18,6 +18,7 @@
     "@hookform/resolvers": "^3.3.1",
     "@openzeppelin/contracts": "^4.9.3",
     "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-select": "^2.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "autoprefixer": "10.4.14",
     "class-variance-authority": "^0.7.0",
